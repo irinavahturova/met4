@@ -1,0 +1,188 @@
+* {    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+h2,h3 {
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1200px;    
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header {    
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+
+}
+
+.wrap_header {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-left: 3%;
+    padding-right: 3%;   
+}
+
+.inheader {                        
+    color: #ffffff;    
+    font-size: 22px;    
+    margin: 30px 0;         
+}
+
+.banner {
+    background: url('../img/bg.jpg') center center/cover no-repeat;
+}
+
+.title {
+    max-width: 90%;
+    padding-top: 82px;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 85px;
+    color: #F7FCFF;
+    text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.text_core {
+    max-width: 90%;
+    padding-top: 30px;
+    padding-bottom: 246px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 141.1%;
+    color: #060538;
+    text-align: center;
+}
+
+.btn1 {
+    display: block;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;    
+    color: #000000;
+    text-decoration: none;
+    padding: 12px 129px 12px;
+    background: #FFC700;
+    border-radius: 24px;
+    margin: 80px auto;
+    max-width: 340px;    
+}
+
+.border {
+    background: linear-gradient(rgba(122,170,176,1),rgba(122,170,176,.26));    
+}
+
+.cart {
+    width: 55%;
+    margin: 60px auto 120px;
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.product_img {
+    display: block;
+    width: 100%;
+}
+
+.product_info {
+    margin: 30px 0;
+} 
+
+.product_title {
+    font-weight: normal;
+    color: #162546; 
+    margin: 20px 0;   
+}
+
+.price {
+    color: #162546;  
+}
+
+.har_title {
+    font-size: 72px;
+    line-height: 85px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.har_list {
+    padding-left: 15%;
+}
+
+.har_item {
+    margin: 52px 126px;
+    width: 334px;
+}
+
+.har_item p {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.list_item {
+    display: flex;
+    align-items: center;    
+}
+
+.list_item img {
+    padding: 10px;
+}
+
+.form_title {
+    margin-top: 195px;
+    font-size: 64px;
+    line-height: 65px;
+    text-align: center;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;  
+    margin-top: 50px; 
+    margin-bottom: 100px;     
+    padding: 20px;
+  }
+  
+  input {  
+    margin: 8px auto;
+    padding: 16px 24px;   
+    width: 65%;    
+  }
+  .btn_input {
+      cursor: pointer;
+      border: none;
+  }
+
+  .footer {
+      background-color: rgba(0, 0, 0, 0.16);
+      text-align: center;
+      color: #000;
+      padding: 40px;      
+  }
+
+  /*Responsiv*/
+
+  @melia scrin and (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+
+    }
+}
